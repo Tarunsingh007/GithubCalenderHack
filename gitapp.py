@@ -9,9 +9,9 @@ filePath="./git.txt"
 date=moment.now().add(years=10)
 print(date)
 
-# f=open("git.txt","a")
-# f.write(str(date))
-# f.close()
+f=open("git.txt","a")
+f.write(str(date))
+f.close()
 
 # # for i in range(1):
 # os.system('cmd /c "git status"')
