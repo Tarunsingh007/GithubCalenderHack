@@ -8,14 +8,15 @@ from git import *
 filePath="./git.txt"
 date=moment.now().add(years=10)
 print(date)
-f=open("git.txt","a")
-f.write(str(date))
-f.close()
 
-# for i in range(1):
-os.system('cmd /c "git status"')
-os.system('cmd /c "git add ."')
-os.system('cmd /c "git commit -m "c2""')
-os.system('cmd /c "git push origin master"')
+# f=open("git.txt","a")
+# f.write(str(date))
+# f.close()
+
+# # for i in range(1):
+# os.system('cmd /c "git status"')
+# os.system('cmd /c "git add ."')
+# # os.system('cmd /c "git commit -m "c2""')
+# # os.system('cmd /c "git push origin master"')
     
     
