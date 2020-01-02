@@ -6,7 +6,7 @@ from git import *
 
 
 filePath="./git.txt"
-date=moment.now().add(years=10)
+date=moment.now()
 print(date)
 
 f=open("git.txt","a")
