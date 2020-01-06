@@ -16,6 +16,6 @@ f.close()
 os.system('cmd /c "git status"')
 os.system('cmd /c "git add ."')
 os.system('cmd /c "git commit -m "c1""')
-# os.system('cmd /c "git push origin master"')
+os.system('cmd /c "git push origin master"')
     
     
