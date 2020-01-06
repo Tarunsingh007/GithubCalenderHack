@@ -15,7 +15,7 @@ f.close()
 # for i in range(1):
 os.system('cmd /c "git status"')
 os.system('cmd /c "git add ."')
-os.system('cmd /c "git commit -m "c1""')
+os.system('cmd /c "git commit -m "c2""')
 os.system('cmd /c "git push origin master"')
     
     
