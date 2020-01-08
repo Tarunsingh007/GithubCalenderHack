@@ -1,13 +1,12 @@
-api="e146e3c1e9413582394cdfd51f8975e8210db0d8"
 import moment
 import pprint
 import os
 import random
 
 for i in range(150):
-    x=random.randrange(0,54)
-    y=random.randrange(0,6)
-    date=moment.now().subtract(years=1).add(days=1).add(weeks=x).add(days=y)
+    y=random.randrange(0,54)
+    x=random.randrange(0,6)
+    date=moment.now().subtract(years=1).add(days=1).add(days=x).add(weeks=y)
     print(date)
     filePath="./git.txt"
     f=open("git.txt","a")
